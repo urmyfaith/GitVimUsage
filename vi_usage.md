@@ -26,3 +26,17 @@
 
 ## move word
 
+* word before  start--->w
+
+* 				end --->e
+
+* word after after -->b
+
+* 				end --> ge
+
+* to somechar  left-->Tx
+
+* 				right--->fx
+
+---
+
