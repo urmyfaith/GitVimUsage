@@ -94,6 +94,19 @@ git push -u origin
 ```
 
 ---
+## git ignore file 
+To ignore file,edit:
+```bat
+.git\info\exclude
+```
+add the filetype you want to igonre to commit .
+eg:
+```
+*.md~
+
+```
+---
+
 ## vim编码设置
 (显示中文乱码问题，最后一行解决）
 vimrc文件位置：
