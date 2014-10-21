@@ -1,6 +1,15 @@
 # windows下git使用
 
-* git的安装
+文章概览：
+* windows下git使用
+* vim编码设置
+* git ls显示中文乱码问题
+
+
+----
+
+## windows下git使用
+
 从网盘下载安装即可
 
 * 使用git连接github
@@ -84,7 +93,7 @@ git push -u origin
 	merge = refs/heads/master
 ```
 
-
+---
 ## vim编码设置
 (显示中文乱码问题，最后一行解决）
 vimrc文件位置：
@@ -113,7 +122,7 @@ set backup
 endif
 set fileencodings=utf-8,gbk
 ```
-
+---
 ## git ls显示中文乱码问题
 编辑
 ```
