@@ -84,5 +84,53 @@
 
 * zb --> cursor to screen buttom
 
+----
+
+## insert 
+
+* i --> befor cursor 
+* a --> after cursor
+* A --> line end insert
+* o ---> next line
+* O ---> up line insert
+
+---
+
+## delete
+
+* x --> delete cursor
+
+* X --> befor cursor
+
+* dw --> delete word
+
+* dd --> delete line
+
+* d0 --> delete to line start
+
+* d^ -->			line start
+
+* D ---> delete to line end
+
+* d$ --> 			line end
+
+* dG ---> delete to document end
+
+* dgg ----> delete teo document start
+
+* :g/^\n*$/ d ---> delete blank line
+
+## search
+
+* /string  ---->search the stirng...
+
+* ? ----> search upside.
+
+* q/ ---> search resulte set
+
+* q? ---> search reslute set .
+
+----
+
 
 
