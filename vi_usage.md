@@ -132,5 +132,5 @@
 
 ----
 
-
+![vi summary](https://raw.githubusercontent.com/urmyfaith/GitVimUsage/master/vi.png "")
 
