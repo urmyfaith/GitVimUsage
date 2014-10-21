@@ -104,8 +104,7 @@ eg:
 ```
 *.md~
 
-```
----
+## ```
 
 ## vim编码设置
 (显示中文乱码问题，最后一行解决）
@@ -134,8 +133,7 @@ else
 set backup
 endif
 set fileencodings=utf-8,gbk
-```
----
+## ```
 ## git ls显示中文乱码问题
 编辑
 ```
