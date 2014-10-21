@@ -104,11 +104,15 @@ eg:
 ```
 *.md~
 
-## ```
+```
 
 ## vim编码设置
 (显示中文乱码问题，最后一行解决）
 vimrc文件位置：
+```
+C:\Program Files\Git\share\vim
+```
+
 添加如下设置
 ```
 set nocompatible
@@ -133,7 +137,7 @@ else
 set backup
 endif
 set fileencodings=utf-8,gbk
-## ```
+```
 ## git ls显示中文乱码问题
 编辑
 ```
