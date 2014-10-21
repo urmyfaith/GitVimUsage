@@ -7,7 +7,7 @@
 
 1）生成本机的密钥
 ```bat
-ssh-keygen -C 'urmyfaith.qq.com' -t rsa
+ssh-keygen -C 'urmyfaith.com' -t rsa
 ```
 2）将生存的密钥添加到github网站中
 
