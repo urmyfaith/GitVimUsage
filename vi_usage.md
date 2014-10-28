@@ -120,6 +120,20 @@
 
 * :g/^\n*$/ d ---> delete blank line
 
+----
+## copy
+
+* yy --> copy current line.
+* 2yy --> copy two lines
+* y^ --> copy to line start
+* y$ --> copy to line end
+* yw --> copy one word.
+* y2w --> copy two words
+* yG ---> copy to  doc end
+* y1G ---> copy to doc start
+* p --> paste to after cursor 
+* P --> paste to befor cursor 
+
 ## search
 
 * /string  ---->search the stirng...
