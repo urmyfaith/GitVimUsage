@@ -30,6 +30,7 @@ $ ssh -T git@github.com
 $ git config --global user.email "urmyfaith@qq.com"
 
 $ git config --global user.name "urmyfaith"
+$ git config --global push.default matching
 
 ```
 
@@ -148,7 +149,12 @@ C:\Program Files\Git\etc\git-completion.bash
 alias ls="ls --show-control-chars"
 ```
 
+----
+## git view history
 
+```
+git log --pretty=oneline
+```
 ----
 
 参考：
