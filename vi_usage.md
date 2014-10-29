@@ -106,6 +106,8 @@
 
 * dd --> delete line
 
+* ndd --> delete N lines
+
 * d0 --> delete to line start
 
 * d^ -->			line start
