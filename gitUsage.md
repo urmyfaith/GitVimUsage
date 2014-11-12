@@ -157,6 +157,15 @@ git log --pretty=oneline
 ```
 ----
 
+## git rm file git删除文件
+移动文件，然后从git里移除文件，再添加，最后提交。
+```
+mv file_form file_path_to
+git rm file_from
+git add file_path_to_full_name.
+git commit -c "move file"
+```
+
 参考：
 
 * [http://casparzhang.blog.163.com/blog/static/12662655820140705139542/](git安装和简单使用 "")
