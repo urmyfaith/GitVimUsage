@@ -66,17 +66,17 @@
 
 * up a screen --> ctrl +b
 
-* up half a acreen ---> ctrl + d
+* **up half a acreen ---> ctrl + d**
 
 * down a screen ---> ctrl+f
 
-* down half a screen --> ctrl +u
+* **down half a screen --> ctrl +u**
 
-* to screen top -->H    3H
+* to screen high -->H    3H
 
 * to sreen middle --> M
 
-* to screen button --> L 5L
+* to screen low --> L 5L
 
 * zt  --> cursor to screen top 
 
