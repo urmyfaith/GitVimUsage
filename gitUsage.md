@@ -165,6 +165,19 @@ git rm file_from
 git add file_path_to_full_name.
 git commit -c "move file"
 ```
+---
+## git diff
+
+HEAD commit 版本
+Index staged版本
+
+git diff	
+git diff --cached	（add之后的不同）
+git diff --staged	（add之后的不同）
+
+git diff HEAD	（commit之后的修改本地后的不同）
+git diff HEAD^ HEAD	（最后两次commit的不同）
+----
 
 参考：
 
