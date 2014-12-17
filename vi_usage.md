@@ -147,6 +147,27 @@
 * q? ---> search reslute set .
 
 ----
+## insert column | delete column
+
+* to delete 
+
+```
+ctrl +v   
+select area
+d
+```
+
+* insert column
+
+```
+  ctrl +v
+  select area
+  shift + i/I
+  esc
+  esc
+```
+
+----
 
 ![vi summary](https://raw.githubusercontent.com/urmyfaith/GitVimUsage/master/vi.png "")
 
