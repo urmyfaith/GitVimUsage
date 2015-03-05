@@ -1,3 +1,8 @@
+
+又不会的git操作,查看
+
+* [廖学峰git](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000)
+
 # windows下git使用
 
 文章概览：
@@ -186,3 +191,4 @@ git diff HEAD^ HEAD	（最后两次commit的不同）
 * [git总结](https://raw.githubusercontent.com/urmyfaith/NotesOfDjangoBook/master/Git%E7%AE%80%E6%98%8E%E6%89%8B%E5%86%8C.pdf "") 
 
 * [git-tutorials](https://www.atlassian.com/git/tutorials/)
+* [廖学峰git](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000)
