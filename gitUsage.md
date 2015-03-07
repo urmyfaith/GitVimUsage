@@ -112,6 +112,23 @@ eg:
 
 ```
 
+## git 打tag
+
+显示历史提交
+
+```
+git log --pretty=oneline --abbrev-commit
+```
+
+给某个提交打tag
+
+```
+git tag v0.9 4224935
+```
+
+更多参考[廖学峰-git-tag](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376951758572072ce1dc172b4178b910d31bc7521ee4000)
+
+
 ## vim编码设置
 (显示中文乱码问题，最后一行解决）
 vimrc文件位置：
