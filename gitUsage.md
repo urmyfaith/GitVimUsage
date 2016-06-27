@@ -205,6 +205,13 @@ git diff HEAD	（commit之后的修改本地后的不同）
 git diff HEAD^ HEAD	（最后两次commit的不同）
 ----
 
+## git submodule 
+
+```
+ git submodule update --init --recursive
+```
+
+
 参考：
 
 * [http://casparzhang.blog.163.com/blog/static/12662655820140705139542/](git安装和简单使用 "")
