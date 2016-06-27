@@ -177,6 +177,10 @@ alias ls="ls --show-control-chars"
 ```
 git log --pretty=oneline
 ```
+
+```
+alias git log="git log -- graph -- pretty = format : '%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' -- abbrev - commit -- date = relative"
+```
 ----
 
 ## git rm file git删除文件
