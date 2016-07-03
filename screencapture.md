@@ -1,8 +1,11 @@
 ## screencapture   截图保存到桌面
 
 -i 交互式截图
+
 -o 截图没有阴影
+
 -W 交互式 window 截图
+
 -x 截图不播放声音
 
 
