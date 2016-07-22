@@ -210,13 +210,14 @@ git diff HEAD^ HEAD	（最后两次commit的不同）
 ```
 # Git
 
-alias zxdiff="git diff HEAD^ HEAD"
-alias zxdiffCached="git diff --cached"
+alias gdiff="git diff HEAD^ HEAD"
+alias gdiffCached="git diff --cached"
 alias gps="git push"
 alias gtm="git checkout master"
 alias gtd="git checkout zxdev"
 alias gl="git pull --rebase"
 alias zxlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+
 ```
 
 
