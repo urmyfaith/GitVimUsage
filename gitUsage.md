@@ -45,7 +45,7 @@ $ git config --global push.default matching
 $    git init  
 ```
 
-    
+
 5） 拉取服务器项目
 ```bat
 $ git pull  https://github.com/urmyfaith/NotesOfDjangoBook.git 
@@ -53,7 +53,7 @@ $ git pull  https://github.com/urmyfaith/NotesOfDjangoBook.git
 $ git pull git@github.com:urmyfaith/NotesOfDjangoBook.git
 ```
 
-  
+
 6） 修改，添加文件,提交
 ```bat
 git add filname_here
@@ -204,6 +204,22 @@ git diff --staged	（add之后的不同）
 git diff HEAD	（commit之后的修改本地后的不同）
 git diff HEAD^ HEAD	（最后两次commit的不同）
 ----
+
+
+
+```
+# Git
+
+alias zxdiff="git diff HEAD^ HEAD"
+alias zxdiffCached="git diff --cached"
+alias gps="git push"
+alias gtm="git checkout master"
+alias gtd="git checkout zxdev"
+alias gl="git pull --rebase"
+alias zxlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+```
+
+
 
 ## git submodule 
 
