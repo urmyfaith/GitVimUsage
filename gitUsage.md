@@ -228,7 +228,16 @@ alias zxlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
  git submodule update --init --recursive
 ```
 
+## git 创建与删除远程分支
 
+```bash
+$ git push origin test:master         # 提交本地 test分支 作为远程的 master分支
+$ git push origin test:test           # 提交本地 test分支 作为远程的 test分支
+
+# 如果想删除远程的分支呢？类似于上面，如果:左边的分支为空，那么将删除:右边的远程的分支。
+
+$ git push origin :test             # 刚提交到远程的test将被删除，但是本地还会保存的，不用担心
+```
 参考：
 
 * [http://casparzhang.blog.163.com/blog/static/12662655820140705139542/](git安装和简单使用 "")
