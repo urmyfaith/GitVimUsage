@@ -238,6 +238,19 @@ $ git push origin test:test           # 提交本地 test分支 作为远程的 
 
 $ git push origin :test             # 刚提交到远程的test将被删除，但是本地还会保存的，不用担心
 ```
+
+## git 显示某个文件的修改历史
+
+```bash
+ git log --follow -p path/to/file
+```
+
+或者
+
+```
+gitk path/to/file
+```
+
 参考：
 
 * [http://casparzhang.blog.163.com/blog/static/12662655820140705139542/](git安装和简单使用 "")
