@@ -220,7 +220,27 @@ alias zxlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 
 ```
 
+## git whatchanged  显示每个commit更改了哪些文件
 
+```
+$ git whatchanged 
+```
+
+## 显示master昨天的更改。 
+
+```
+$ git show master@{yesterday}
+```
+
+## stash 暂存
+
+```
+$ git stash list                                            # 查看所有暂存
+
+$ git stash show -p stash@{0}                               # 参考第一次暂存
+
+$ git stash apply stash@{0}                                 # 应用第一次暂存
+```
 
 ## git submodule 
 
