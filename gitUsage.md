@@ -271,6 +271,44 @@ $ git push origin :test             # 刚提交到远程的test将被删除，�
 gitk path/to/file
 ```
 
+## git fork 别人的代码后，自己又有更改，怎么获取最新的呢？
+
+1)fork 后的远程分支：
+
+```
+$ git remote -v
+origin	https://git.coding.net/z2xy/git-from-the-inside-out.git (fetch)
+origin	https://git.coding.net/z2xy/git-from-the-inside-out.git (push
+```
+
+2)添加 upstream 
+ 
+```
+$ git remote add   tvvocold  https://git.coding.net/tvvocold/git-from-the-inside-out.git
+
+$ git remote -v 
+origin	https://git.coding.net/z2xy/git-from-the-inside-out.git (fetch)
+origin	https://git.coding.net/z2xy/git-from-the-inside-out.git (push)
+tvvocold	https://git.coding.net/tvvocold/git-from-the-inside-out.git (fetch)
+tvvocold	https://git.coding.net/tvvocold/git-from-the-inside-out.git (push)
+```
+
+3) 拉去fork的仓库更新
+
+```
+$ git pull tvvocold HEAD:HEAD    
+From https://git.coding.net/tvvocold/git-from-the-inside-out
+ * [new ref]                    -> HEAD
+warning: refname 'HEAD' is ambiguous.
+Already up-to-date.
+```
+
+4) merge／rabase 解决冲突
+
+```
+$ git reabse  tvvocold 
+```
+
 参考：
 
 * [http://casparzhang.blog.163.com/blog/static/12662655820140705139542/](git安装和简单使用 "")
