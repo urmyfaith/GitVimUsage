@@ -174,7 +174,7 @@ alias ls="ls --show-control-chars"
 ----
 ## git view history
 
-```
+```bash
 git log --pretty=oneline
 ```
 
@@ -185,7 +185,8 @@ alias git log="git log -- graph -- pretty = format : '%Cred%h%Creset -%C(yellow)
 
 ## git rm file git删除文件
 移动文件，然后从git里移除文件，再添加，最后提交。
-```
+
+```bash
 mv file_form file_path_to
 git rm file_from
 git add file_path_to_full_name.
@@ -222,19 +223,19 @@ alias zxlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 
 ## git whatchanged  显示每个commit更改了哪些文件
 
-```
+```bash
 $ git whatchanged 
 ```
 
 ## 显示master昨天的更改。 
 
-```
+```bash
 $ git show master@{yesterday}
 ```
 
 ## stash 暂存
 
-```
+```bash
 $ git stash list                                            # 查看所有暂存
 
 $ git stash show -p stash@{0}                               # 参考第一次暂存
@@ -244,7 +245,7 @@ $ git stash apply stash@{0}                                 # 应用第一次暂
 
 ## git submodule 
 
-```
+```bash
  git submodule update --init --recursive
 ```
 
@@ -267,7 +268,7 @@ $ git push origin :test             # 刚提交到远程的test将被删除，�
 
 或者
 
-```
+```bash
 gitk path/to/file
 ```
 
@@ -275,7 +276,7 @@ gitk path/to/file
 
 1)fork 后的远程分支：
 
-```
+```bash
 $ git remote -v
 origin	https://git.coding.net/z2xy/git-from-the-inside-out.git (fetch)
 origin	https://git.coding.net/z2xy/git-from-the-inside-out.git (push
@@ -283,7 +284,7 @@ origin	https://git.coding.net/z2xy/git-from-the-inside-out.git (push
 
 2)添加 upstream 
  
-```
+```bash
 $ git remote add   tvvocold  https://git.coding.net/tvvocold/git-from-the-inside-out.git
 
 $ git remote -v 
@@ -295,7 +296,7 @@ tvvocold	https://git.coding.net/tvvocold/git-from-the-inside-out.git (push)
 
 3) 拉去fork的仓库更新
 
-```
+```bash
 $ git pull tvvocold HEAD:HEAD    
 From https://git.coding.net/tvvocold/git-from-the-inside-out
  * [new ref]                    -> HEAD
@@ -305,8 +306,34 @@ Already up-to-date.
 
 4) merge／rabase 解决冲突
 
-```
+```bash
 $ git reabse  tvvocold 
+```
+
+## 远程分支的删除
+
+see http://blog.csdn.net/lxbwolf/article/details/53168066
+
+查看
+
+```bash
+$ git remote show origin
+```
+
+删除
+
+```bash
+$ git push origin :remoteBranchToDelete
+$ # or
+$ git push origin --delete remoteBranchToDelete
+```
+
+删除缓存：
+
+```bash
+$ git remote prune origin
+$ # or
+$ git fetch -p
 ```
 
 参考：
