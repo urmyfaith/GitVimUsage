@@ -336,6 +336,35 @@ $ # or
 $ git fetch -p
 ```
 
+## 显示某个commit修改了哪些文件
+
+```bash
+$ git diff --name-status 8e57...5739
+$ git diff --name-status HEAD HEAD~1
+```
+## 打补丁
+
+生成patch
+
+```bash
+git format-patch -M 421e4d1
+git format-patch -p d8cde0f
+git format-patch -p d8cde0f --summary
+git format-patch -p d8cde0f --binary
+git format-patch -p d8cde0f -n
+git format-patch -k --stdout f88c2...9f43c
+git format-patch -s f88c272
+git format-patch -s d8cde0f
+```
+
+应用 patch
+
+```bash
+git am 0001-v2.patch
+git am  ../GitA/*.patch 
+git am --abort
+```
+
 参考：
 
 * [http://casparzhang.blog.163.com/blog/static/12662655820140705139542/](git安装和简单使用 "")
